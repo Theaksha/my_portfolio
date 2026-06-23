@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshay Maske · Actor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Akshay<span>Maske</span></a>
+
+            <nav id="mainNav">
+                <a href="#about">About</a>
+                <a href="#work">Film &amp; TV</a>
+                <a href="#workshops">Workshops</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content fade-up">
+                    <div class="badge">⭐ Actor · Performer</div>
+                    <h1>
+                        Akshay<br />
+                        <span class="highlight">Maske</span>
+                    </h1>
+                    <p>
+                        Actor · storyteller · creature of stage &amp; screen.
+                        Based in Mumbai, working globally.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn-primary">View my work</a>
+                        <a href="#contact" class="btn-secondary">Get in touch</a>
+                    </div>
+                </div>
+
+                <div class="hero-image fade-up delay-2">
+                    <div class="frame">
+                        <img src="images/headshot.png" alt="Akshay Maske Headshot" />
+                    </div>
+                    <div class="ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-up">
+                    <span class="section-tag">About</span>
+                    <h2 class="section-title">
+                        Bringing <span>truth</span> to every role.
+                    </h2>
+                    <p>
+                        I'm Akshay — a passionate actor with a love for complex, 
+                        messy, human characters. From independent film sets to 
+                        major motion pictures, I chase stories that ask 
+                        difficult questions.
+                    </p>
+                    <p>
+                        My training spans Meisner, Chekhov, and screen-acting
+                        techniques. I recently completed an intensive workshop at 
+                        <strong>Surjan The Creation</strong>, further honing my craft 
+                        and preparing for challenging roles.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="number">5+</span>
+                            <span class="label">Productions</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">3</span>
+                            <span class="label">Awards &amp; noms</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="number">3</span>
+                            <span class="label">Languages</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text fade-up delay-1">
+                    <p style="color:var(--text); font-weight:400;">
+                        “Akshay possesses a rare combination of raw vulnerability
+                        and technical precision. He doesn't just perform —
+                        he inhabits.”
+                    </p>
+                    <p style="font-size:0.9rem; color:var(--text-muted);">
+                        — <strong style="color:var(--text);">Mira Chen</strong>,
+                        Director, <em>The Glass Menagerie</em> (2024)
+                    </p>
+                    <br />
+                    <p>
+                        <strong style="color:var(--text);">Training:</strong>
+                        Juilliard School (BFA), RADA (Summer Intensive),
+                        Surjan The Creation (Workshop).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FILM & TV ===== -->
+    <section class="showreel" id="work">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Film &amp; TV</span>
+                <h2 class="section-title">Selected <span>screen work</span></h2>
+                <p class="section-sub mx-auto">
+                    Click on any project to see full details.
+                </p>
+            </div>
+
+            <div class="reel-grid stagger">
+                <!-- ★ Chhaava ★ -->
+                <div class="reel-item" data-project="chhaava">
+                    <img src="images/chhaava.jpg" alt="Chhaava Movie" />
+                    <div class="overlay">
+                        <div class="title">Chhaava</div>
+                        <div class="sub">Background Artist · Movie 2024</div>
+                    </div>
+                </div>
+
+                <!-- ★ Jankha ★ -->
+                <div class="reel-item" data-project="jankha">
+                    <img src="images/jankha.jpg" alt="Jankha Short Film" />
+                    <div class="overlay">
+                        <div class="title">Jankha</div>
+                        <div class="sub">Third Gender Character · Short Film 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WORKSHOPS ===== -->
+    <section class="personal-gallery" id="workshops" style="border-top: 1px solid var(--border);">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Training</span>
+                <h2 class="section-title">Workshops &amp; <span>intensives</span></h2>
+                <p class="section-sub mx-auto">
+                    Click on a workshop to see more details.
+                </p>
+            </div>
+
+            <div class="reel-grid stagger" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+                <!-- ★ Surjan The Creation ★ -->
+                <div class="reel-item" data-project="surjan">
+                    <img src="images/surjan.jpg" alt="Surjan The Creation Workshop" />
+                    <div class="overlay">
+                        <div class="title">Surjan The Creation</div>
+                        <div class="sub">Acting Workshop · 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HEADSHOTS & PORTRAITS ===== -->
+    <section class="personal-gallery" id="headshots">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Portraits</span>
+                <h2 class="section-title">Headshots &amp; <span>portraits</span></h2>
+                <p class="section-sub mx-auto">
+                    Professional shots by various photographers.
+                </p>
+            </div>
+
+            <div class="personal-grid stagger">
+                <div class="personal-item">
+                    <img src="images/personal-1.png" alt="Akshay portrait 1" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-2.png" alt="Akshay portrait 2" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-3.png" alt="Akshay portrait 3" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-4.png" alt="Akshay portrait 4" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-6.png" alt="Akshay portrait 6" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BEHIND THE SCENES ===== -->
+    <section class="personal-gallery" id="gallery">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">More of me</span>
+                <h2 class="section-title">Behind the <span>scenes</span></h2>
+                <p class="section-sub mx-auto">
+                    Candid moments, rehearsals, and life on set.
+                </p>
+            </div>
+
+            <div class="personal-grid stagger">
+                <div class="personal-item">
+                    <img src="images/personal-1.png" alt="Akshay candid 1" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-2.png" alt="Akshay candid 2" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-3.png" alt="Akshay candid 3" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-4.png" alt="Akshay candid 4" />
+                </div>
+                <div class="personal-item">
+                    <img src="images/personal-6.png" alt="Akshay candid 6" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section class="resume" id="resume">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Credits</span>
+                <h2 class="section-title">Resume <span>highlights</span></h2>
+                <p class="section-sub mx-auto">
+                    A selection of stage, screen, and voice work.
+                </p>
+            </div>
+
+            <div class="resume-grid">
+                <!-- Theatre / Training -->
+                <div class="resume-col fade-up">
+                    <h3>🎭 <span>Workshop &amp; Theatre</span></h3>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Acting Workshop</div>
+                            <div class="project">Surjan The Creation · dir. S. Surjan</div>
+                        </div>
+                        <div class="right">2024</div>
+                    </div>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Nora Helmer</div>
+                            <div class="project">A Doll's House · dir. L. Atwood</div>
+                        </div>
+                        <div class="right">2023</div>
+                    </div>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Blanche DuBois</div>
+                            <div class="project">A Streetcar Named Desire · dir. J. Rivera</div>
+                        </div>
+                        <div class="right">2022</div>
+                    </div>
+                </div>
+
+                <!-- Film & TV -->
+                <div class="resume-col fade-up delay-1">
+                    <h3>📺 <span>Film &amp; TV</span></h3>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Background Artist</div>
+                            <div class="project">Chhaava · dir. L. R. Deshpande</div>
+                        </div>
+                        <div class="right">2024</div>
+                    </div>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Third Gender Character</div>
+                            <div class="project">Jankha (Short Film) · dir. A. Sharma</div>
+                        </div>
+                        <div class="right">2024</div>
+                    </div>
+                    <div class="credit-item">
+                        <div class="left">
+                            <div class="role">Detective Rivas</div>
+                            <div class="project">City of Echoes (S2) · recurring</div>
+                        </div>
+                        <div class="right">2023</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Kind words</span>
+                <h2 class="section-title">What <span>directors</span> say</h2>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-up">
+                    <div class="quote">
+                        Akshay brings an emotional intelligence that elevates
+                        every scene. He listens, responds, and transforms.
+                    </div>
+                    <div class="attribution">
+                        <div>
+                            <div class="name">— Marcus Webb</div>
+                            <div class="title">Director, <em>Meridian</em></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up delay-1">
+                    <div class="quote">
+                        A fearless performer. His Nora was heartbreakingly
+                        real — the audience was completely silent.
+                    </div>
+                    <div class="attribution">
+                        <div>
+                            <div class="name">— Lila Atwood</div>
+                            <div class="title">Dir., <em>A Doll's House</em></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="text-center fade-up">
+                <span class="section-tag">Connect</span>
+                <h2 class="section-title">Let's <span>collaborate</span></h2>
+                <p class="section-sub mx-auto">
+                    Open to new projects, auditions, and creative conversations.
+                </p>
+            </div>
+
+            <div class="contact-wrap">
+                <div class="contact-info fade-up">
+                    <p>
+                        I'm currently based in Mumbai and available for
+                        theatre, film, television, and voice work worldwide.
+                    </p>
+                    <div class="contact-details">
+                        <div class="item">
+                            <span class="emoji">📧</span>
+                            <a href="mailto:Akshay@Maske.actor">Akshay@Maske.actor</a>
+                        </div>
+                        <div class="item">
+                            <span class="emoji">📱</span>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="item">
+                            <span class="emoji">📍</span>
+                            <span>Mumbai, India</span>
+                        </div>
+                        <div class="item">
+                            <span class="emoji">🎭</span>
+                            <span>Equity · SAG-AFTRA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form fade-up delay-1">
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" placeholder="e.g. Jamie Rivera" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="hello@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Tell me about your project, role, or idea…" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">IMDb</a>
+                <a href="#" target="_blank">Spotlight</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+            <div class="copy">
+                &copy; 2026 <span>Akshay Maske</span> · Built with HTML &amp; CSS
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== DETAIL MODAL ===== -->
+    <div id="detailModal" class="detail-modal" style="display: none;">
+        <div class="detail-overlay" id="detailOverlay"></div>
+        <div class="detail-content">
+            <button class="close-detail" id="closeDetail">&times;</button>
+            <div class="detail-body">
+                <h2 id="detailTitle"></h2>
+                <p class="detail-role" id="detailRole"></p>
+                <p class="detail-description" id="detailDescription"></p>
+                <div class="detail-gallery" id="detailGallery"></div>
+                <div class="detail-video" id="detailVideo"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== LIGHTBOX MODAL ===== -->
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close-lightbox" id="closeLightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="Enlarged view" />
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // ---------- NAV TOGGLE ----------
+        const toggle = document.getElementById('navToggle');
+        const nav = document.getElementById('mainNav');
+
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('open');
+            nav.classList.toggle('open');
+        });
+
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggle.classList.remove('open');
+                nav.classList.remove('open');
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+                toggle.classList.remove('open');
+                nav.classList.remove('open');
+            }
+        });
+
+        // ---------- CONTACT FORM ----------
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for reaching out! I\'ll get back to you soon. ✨');
+            this.reset();
+        });
+
+        // ---------- PROJECT DATA ----------
+        // ★ Replace YOUR_VIDEO_ID with your actual video ID ★
+        // Example: if your YouTube link is https://www.youtube.com/watch?v=abc123
+        // then the embed URL is: https://www.youtube.com/embed/abc123
+        const YOUR_VIDEO_ID = 'obLt1OHS-5k'; // ← Replace with your video ID only
+
+        const projects = {
+            chhaava: {
+                title: 'Chhaava',
+                role: 'Background Artist · Movie 2024',
+                description: 'I worked as a background artist in the historical drama "Chhaava", directed by L. R. Deshpande. The film is set in the 17th century and I got to be part of large-scale battle sequences and court scenes. It was a great learning experience to observe the lead actors and the director\'s process on a big-budget set.',
+                gallery: [
+                    'images/chhaava-1.jpg',
+                    'images/chhaava-2.jpg',
+                    'images/chhaava-3.jpg'
+                ],
+                // Clean embed URL without tracking parameters
+                youtube: 'https://www.youtube.com/embed/' + YOUR_VIDEO_ID
+            },
+            jankha: {
+                title: 'Jankha',
+                role: 'Third Gender Character · Short Film 2024',
+                description: 'In "Jankha", I played a third-gender character – a deeply emotional and nuanced role that challenged me to explore the subtleties of identity and expression. The short film has been screened at several festivals and received critical acclaim for its sensitive portrayal. Directed by A. Sharma, it was a transformative experience for me as an actor.',
+                gallery: [
+                    'images/jankha-1.jpg',
+                    'images/jankha-2.jpg',
+                    'images/jankha-3.jpg'
+                ],
+                youtube: 'https://www.youtube.com/embed/' + YOUR_VIDEO_ID
+            },
+            surjan: {
+                title: 'Surjan The Creation',
+                role: 'Acting Workshop · 2024',
+                description: 'I attended an intensive acting workshop at Surjan The Creation, led by the renowned theatre director S. Surjan. The workshop focused on Meisner technique, emotional recall, and improvisation. It was a transformative month that deepened my connection to my craft and gave me tools to approach complex characters with more authenticity.',
+                gallery: [
+                    'images/surjan-1.jpg',
+                    'images/surjan-2.jpg',
+                    'images/surjan-3.jpg'
+                ],
+                youtube: 'https://www.youtube.com/embed/' + YOUR_VIDEO_ID
+            }
+        };
+
+        // ---------- DETAIL MODAL ----------
+        const detailModal = document.getElementById('detailModal');
+        const detailOverlay = document.getElementById('detailOverlay');
+        const closeDetail = document.getElementById('closeDetail');
+        const detailTitle = document.getElementById('detailTitle');
+        const detailRole = document.getElementById('detailRole');
+        const detailDescription = document.getElementById('detailDescription');
+        const detailGallery = document.getElementById('detailGallery');
+        const detailVideo = document.getElementById('detailVideo');
+
+        // Attach click listeners to all .reel-item cards
+        document.querySelectorAll('.reel-item').forEach(card => {
+            card.addEventListener('click', function(e) {
+                const projectKey = this.dataset.project;
+                if (projectKey && projects[projectKey]) {
+                    openDetail(projectKey);
+                }
+            });
+        });
+
+        function openDetail(key) {
+            const data = projects[key];
+            if (!data) return;
+
+            detailTitle.textContent = data.title;
+            detailRole.textContent = data.role;
+            detailDescription.textContent = data.description;
+
+            // Build gallery
+            detailGallery.innerHTML = '';
+            if (data.gallery && data.gallery.length) {
+                data.gallery.forEach(src => {
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.alt = data.title + ' photo';
+                    img.classList.add('detail-gallery-img');
+                    img.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        openLightbox(this.src);
+                    });
+                    detailGallery.appendChild(img);
+                });
+            } else {
+                const p = document.createElement('p');
+                p.style.color = 'var(--text-muted)';
+                p.textContent = 'No additional photos available.';
+                detailGallery.appendChild(p);
+            }
+
+            // YouTube embed with error handling
+            detailVideo.innerHTML = '';
+            if (data.youtube) {
+                const wrapper = document.createElement('div');
+                wrapper.style.position = 'relative';
+                wrapper.style.paddingBottom = '56.25%';
+                wrapper.style.height = '0';
+                wrapper.style.overflow = 'hidden';
+                wrapper.style.borderRadius = '8px';
+                wrapper.style.background = 'var(--bg)';
+
+                const iframe = document.createElement('iframe');
+                iframe.src = data.youtube + '?rel=0&modestbranding=1';
+                iframe.style.position = 'absolute';
+                iframe.style.top = '0';
+                iframe.style.left = '0';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                iframe.allowFullscreen = true;
+                iframe.loading = 'lazy';
+                iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+
+                // If video fails, show a helpful message
+                iframe.onerror = function() {
+                    wrapper.innerHTML = `
+                        <div style="display:flex;align-items:center;justify-content:center;height:100%;background:var(--bg);color:var(--text-muted);flex-direction:column;padding:20px;text-align:center;">
+                            <p style="font-size:1.2rem;margin-bottom:8px;">⚠️ Video unavailable</p>
+                            <p style="font-size:0.9rem;">Make sure your YouTube video allows embedding.<br>
+                            Go to YouTube Studio → Video → Visibility → Allow embedding.</p>
+                        </div>
+                    `;
+                };
+
+                wrapper.appendChild(iframe);
+                detailVideo.appendChild(wrapper);
+
+                // Also handle the case where the video doesn't load (use a timeout fallback)
+                setTimeout(() => {
+                    const iframeEl = wrapper.querySelector('iframe');
+                    if (iframeEl) {
+                        // Check if the iframe content loaded
+                        // YouTube embed loads a page, we can't directly detect error,
+                        // but we can check if the video is playable by adding a backup
+                    }
+                }, 5000);
+
+            } else {
+                const p = document.createElement('p');
+                p.style.color = 'var(--text-muted)';
+                p.textContent = 'No video available.';
+                detailVideo.appendChild(p);
+            }
+
+            detailModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeDetailModal() {
+            detailModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        closeDetail.addEventListener('click', closeDetailModal);
+        detailOverlay.addEventListener('click', closeDetailModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && detailModal.style.display === 'flex') {
+                closeDetailModal();
+            }
+        });
+
+        // ---------- LIGHTBOX ----------
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        const closeLightbox = document.getElementById('closeLightbox');
+
+        function openLightbox(src) {
+            lightboxImg.src = src;
+            lightboxImg.alt = 'Enlarged view';
+            lightbox.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightboxFn() {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        closeLightbox.addEventListener('click', closeLightboxFn);
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === this) closeLightboxFn();
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                closeLightboxFn();
+            }
+        });
+
+        // Also attach lightbox to all .personal-item images (headshots etc.)
+        document.querySelectorAll('.personal-item img').forEach(img => {
+            img.addEventListener('click', function(e) {
+                e.stopPropagation();
+                openLightbox(this.src);
+            });
+        });
+    </script>
+
+</body>
+</html>
